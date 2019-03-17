@@ -1,14 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <style>
+        ul ,li {
+            list-style: none;
+            padding: 0;
+        }
+        a{
+            text-decoration: none;
+        }
+        .nav {
+        }
+        .nav li{
+            float: left;
+            width: 100px;
+            height: 50px;
+            border-bottom: 1px solid #ccc;
+            text-align: center;
+            line-height: 50px;
+            margin-right: 40px;
+        }
+        .nav li:nth-last-of-type(1){
+            margin-right: 0;
+        }
+        .nav li a{
+            display:block;
+            color: #333;
+            font-size: 14px;
+        }
+        .nav li a:hover{
+            color: #fff;
+            background-color: #f40;
+        }
+    </style>
 </head>
+
 <body>
     wellcome to javascript!
     <div>&gt;</div>
-    afalfjaklfjlajkajfaljf
+    <ul class="nav">
+        <li class="item">
+            <a href="#" class="find">发现</a>
+        </li>
+        <li class="item">
+            <a href="#" class="cost">真划算</a>
+        </li>
+        <li class="item">
+            <a href="#" class="chothingCity">服装城</a>
+        </li>
+        <li class="item">
+            <a href="#" class="superMarket">超市</a>
+        </li>
+        <li class="item">
+            <a href="#" class="electricCity">电器城</a>
+        </li>
+        <li class="item">
+            <a href="#" class="car">汽车</a>
+        </li>
+        <li class="item">
+            <a href="#" class="homeFurnishings">家居家装</a>
+        </li>
+        <li class="item">
+            <a href="#" class="smartHouseKeeper">智能管家</a>
+        </li>
+        <li class="item">
+            <a href="#" class="finance">金融</a>
+        </li>
+    </ul>
 </body>
+
 </html>
